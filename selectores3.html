@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores 3</title>
+    <style>
+        p {
+            color: green;
+        }
+        p:hover {
+            color: red;
+        }
+        p::first-letter {
+            color: blue;
+        }
+        p::before {
+            content: "😂";
+        }
+        div p:nth-child(2){
+            color: violet;
+        }
+        ::placeholder {
+            color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <p>Plazti Expert</p>
+    <div>
+        <p>Platzi</p>
+        <p>Expert</p>
+        <p>Lo mejor</p>
+    </div>
+    <input type="text" placeholder="name">
+</body>
+</html>
